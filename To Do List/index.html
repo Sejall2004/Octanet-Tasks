@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="main">
+        <header>To-Do List</header>
+        <div class="inputField">
+          <input type="text" placeholder="Write your task here">
+          <button>Add</button>
+        </div>
+        <ul class="todoList">
+          <!-- data are comes from local storage -->
+        </ul>
+        <div class="footer">
+          <span>You have <span class="pendingTasks"></span> Tasks To Do</span>
+          <button>Delete</button>
+        </div>
+      </div>
+    
+      <script src="logic.js"></script>
+    
+</body>
+</html>
